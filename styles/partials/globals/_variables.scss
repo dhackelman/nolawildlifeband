@@ -1,0 +1,30 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:200');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900');
+$primaryFont: 'BioRhyme', serif;
+$bodyFont: 'Montserrat', sans-serif;
+
+
+// Blues
+$royal: rgba(35, 86, 149, 1.0); //#16365A
+$navy: rgba(22, 52, 92, 1.0); // #22598F
+$carolinaBlue: rgba(95, 161, 216, 1.0); // #5C9FCF
+$skyBlue: rgba(169, 207, 239, 1.0); // #5999C7
+
+// Oranges
+$burnt: rgba(228, 115, 35, 1.0);
+$orange: rgba(247, 148, 29, 1.0);
+$tangerine: rgba(255, 187, 19, 1.0);
+$lemon: rgba(255, 218, 3, 1.0);
+
+// Greens
+$green: rgba(68, 149, 58, 1.0);
+$avocado: rgba(187, 215, 46, 1.0);
+
+// Extra Color:
+$brown: rgba(199, 154, 107, 1.0);
+$shale: rgba(141, 134, 134, 1.0);
+$lightGray: rgba(205, 205, 192, 1.0);
+$almost: rgba(242, 242, 242, 1.0);
+// Typography set color
+$smoothGray: rgba(45, 45, 45, 1.0);

@@ -1,0 +1,16 @@
+// ------ Global Imports ------ //
+@import 'partials/globals/variables';
+@import 'partials/globals/reset';
+@import 'partials/globals/view-changers';
+
+// ------- Animations --------- //
+@import 'partials/globals/animation';
+// ------- Site Imports ------- //
+@import 'partials/common';
+@import 'partials/header';
+@import 'partials/main_content';
+@import 'partials/calendar';
+@import 'partials/not_found';
+@import 'partials/landing';
+@import 'partials/music';
+@import 'partials/footer';

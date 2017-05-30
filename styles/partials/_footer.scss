@@ -1,0 +1,20 @@
+
+.footer__content {
+  background-color: black;
+  color: white;
+  display: none;
+  height: 50px;
+  position: absolute;
+  top: calc((100vh) + 40px);
+  width: 100%;
+
+  .footer__specifics {
+    font-family: $bodyFont;
+    font-size: .8rem;
+    margin: 1vh auto;
+    text-align: center;
+    width: 100%;
+
+
+  }
+}

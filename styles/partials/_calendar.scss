@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+.event-calendar {
+  background-color: black;
+  font-size: 16px;
+  font-family: Open Sans;
+  // overflow:hidden;
+  // white-space: nowrap;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.top-line {
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 0;
+  width: 150%
+}
+
+.spacer {
+  border-bottom: 1px solid white;
+}
+
+.event-list {
+  display: block;
+  border-right: 1px solid rgb(229, 229, 229);
+}
+
+.event {
+  text-decoration: none;
+}
+
+.event-container {
+  color: white;
+  transition: all 0.2s ease;
+  background: rgba(210, 210, 210, 0.7);
+  border: 3px solid;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.event-container:hover {
+  border-left-width: 7px;
+  background:#ECEFF1;
+}
+
+.date-container {
+  display:inline-block;
+  width: 70px;
+  padding-left: 13px;
+  padding-right: 12px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  font-family: Oswald;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 2em;
+}
+
+.month {
+  display:block;
+  font-size: .4em;
+  font-weight: 400;
+  margin-top:-.2em;
+  text-transform:uppercase;
+}
+
+.detail-container {
+  display:inline-block;
+  vertical-align:top;
+  padding-top:3px;
+}
+
+.title {
+  text-transform:uppercase;
+  font-family:Oswald;
+  font-weight:400;
+  font-size:1.5em;
+  color:black;
+}
+
+.description {
+  display:block;
+  font-size:0.9em;
+  margin-top: 0.2rem;
+  color:white;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+  .event-calendar {
+    margin: 5% auto;
+    max-width: 50%;
+  }
+}

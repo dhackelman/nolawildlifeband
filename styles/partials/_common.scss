@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  // height: 2500px;
+}
+
+.image__label {
+  color: white;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 4em;
+  text-align: center;
+  width: 100%;
+}
+
+
+.container__jumbotron {
+  display: none;
+  margin: 0 auto;
+  padding: 0 0;
+  width: 100%;
+}
+
+.content__container {
+  background-color: black;
+  // background-size: 100%;
+  // display: none;
+  min-height: 200px;
+  // padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100vw;
+}
+.calendar__content {
+  background-color: black;
+  // background-size: 100%;
+  // display: none;
+  min-height: 200px;
+  // padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100vw;
+}
+
+.coming__soon, .patience {
+  background-color: rgba(250, 250, 250, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  min-height: 50px;
+  width: 90%;
+}
+
+.patience {
+  font-size: 0.75rem;
+}
+
+
+@media only screen and (max-width: 580px) {
+  .container__jumbotron {
+    margin: 0 auto;
+    width: 100vw;
+  }
+}
+
+.hidden__AF {
+  display: none;
+  width: 0;
+  height: 0;
+}
