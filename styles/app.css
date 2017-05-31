@@ -390,6 +390,12 @@ body {
   background-size: 100% auto;
   background-color: black; }
 
+.photo__content__container {
+  margin: 0 auto;
+  width: 80%; }
+  .photo__content__container .photo__content__ind {
+    margin: 5% auto; }
+
 .videos__container {
   background: url(../images/NOWBVideos.jpg) center center no-repeat;
   background-size: 100% auto;
