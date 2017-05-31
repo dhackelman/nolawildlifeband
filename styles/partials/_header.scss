@@ -1,4 +1,3 @@
-
 .header__container {
   background-color: black;
   border-top: 8px solid black;
@@ -11,7 +10,9 @@
   width: 100%;
   z-index: 100;
 }
-
+.header__container__transparent {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
 .band__header {
   // color: red;
   font-size: 2rem;
@@ -42,6 +43,10 @@
     list-style: none;
     margin: 0 6px;
   }
+}
+
+.band__navigation__transparent {
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 @media (max-width: 550px) {

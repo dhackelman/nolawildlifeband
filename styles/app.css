@@ -230,6 +230,9 @@ body {
   width: 100%;
   z-index: 100; }
 
+.header__container__transparent {
+  background-color: rgba(0, 0, 0, 0.3) !important; }
+
 .band__header {
   font-size: 2rem;
   margin: 0 auto;
@@ -254,6 +257,9 @@ body {
     font-weight: 700;
     list-style: none;
     margin: 0 6px; }
+
+.band__navigation__transparent {
+  background-color: rgba(0, 0, 0, 0.3) !important; }
 
 @media (max-width: 550px) {
   .band__header {
