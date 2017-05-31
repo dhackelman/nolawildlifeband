@@ -3,7 +3,7 @@ hide_initial_content_containers();
   var nav_button_music = document.getElementById('music');
   var nav_button_videos = document.getElementById('videos');
   var nav_button_photos = document.getElementById('photos');
-  var nav_button_calendar = document.getElementById('calendar');
+  var nav_button_about = document.getElementById('about');
   var nav_button_contact = document.getElementById('contact');
   var landing_reveal = document.getElementsByClassName('landing__container');
   var album_reveal = document.getElementsByClassName('album');
@@ -50,20 +50,6 @@ hide_initial_content_containers();
       hide_content();
       console.log('now you dont');
       $(album_reveal).removeClass('hidden__AF');
-      console.log('now you do');
-      body_flag = 1;
-      console.log(body_flag);
-    } else if (body_flag === 1) {
-      reveal_content();
-      body_flag = 0;
-      console.log(body_flag);
-    }
-  }
-  function show_just_calendar () {
-    if (body_flag === 0) {
-      hide_content();
-      console.log('now you dont');
-      $(calendar_reveal).removeClass('hidden__AF');
       console.log('now you do');
       body_flag = 1;
       console.log(body_flag);
@@ -165,7 +151,7 @@ hide_initial_content_containers();
 $(nav_button_home).click(function() {
   hide_initial_content_containers();
   reveal_content();
-
+  body_flag = 0;
 });
 $(nav_button_music).click(function() {
   if (body_flag === 0) {
@@ -194,13 +180,13 @@ $(nav_button_photos).click(function() {
     show_just_photo();
   }
 });
-$(nav_button_calendar).click(function() {
+$(nav_button_about).click(function() {
   if (body_flag === 0) {
-    show_just_calendar();
+    show_just_about();
   } else {
     hide_content();
     hide_initial_content_containers();
-    show_just_calendar();
+    show_just_about();
   }
 });
 $(nav_button_contact).click(function() {
@@ -213,7 +199,6 @@ $(nav_button_contact).click(function() {
   }
 });
 $(album_reveal).click(show_just_album);
-$(calendar_reveal).click(show_just_calendar);
 $(music_reveal).click(show_just_music);
 $(about_reveal).click(show_just_about);
 $(photo_reveal).click(show_just_photo);
