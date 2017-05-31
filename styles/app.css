@@ -315,14 +315,12 @@ body {
   margin: 15px 0 5px 20px;
   text-align: left; }
 
-.video__container {
+.video__content__container {
   margin: 1% auto;
   width: 100%; }
-  .video__container iframe {
-    max-height: 250px;
-    margin-right: calc(((100vw) - 320px)/2);
-    margin-left: calc(((100vw) - 320px)/2);
-    width: 320px; }
+  .video__content__container iframe {
+    margin: 0 15% 0 15%;
+    width: 70%; }
 
 .link__content__container {
   background-color: #f2f2f2;

@@ -5,6 +5,7 @@ hide_initial_content_containers();
   var nav_button_photos = document.getElementById('photos');
   var nav_button_about = document.getElementById('about');
   var nav_button_contact = document.getElementById('contact');
+  var nav_button_links = document.getElementById('links');
   var landing_reveal = document.getElementsByClassName('landing__container');
   var album_reveal = document.getElementsByClassName('album');
   var calendar_reveal = document.getElementsByClassName('calendar');
@@ -187,6 +188,15 @@ $(nav_button_about).click(function() {
     hide_content();
     hide_initial_content_containers();
     show_just_about();
+  }
+});
+$(nav_button_links).click(function() {
+  if (body_flag === 0) {
+    show_just_link();
+  } else {
+    hide_content();
+    hide_initial_content_containers();
+    show_just_link();
   }
 });
 $(nav_button_contact).click(function() {
