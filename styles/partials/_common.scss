@@ -26,7 +26,7 @@ body {
   min-height: 200px;
   // padding-top: 5%;
   padding-bottom: 5%;
-  width: 100vw;
+  // width: 100vw;
 }
 .calendar__content {
   background-color: black;
@@ -60,10 +60,10 @@ body {
   }
 
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .whole__page__container {
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
   }
 }
 

@@ -192,8 +192,7 @@ body {
 .content__container {
   background-color: black;
   min-height: 200px;
-  padding-bottom: 5%;
-  width: 100vw; }
+  padding-bottom: 5%; }
 
 .calendar__content {
   background-color: black;
@@ -216,10 +215,10 @@ body {
   .container__jumbotron {
     margin: 0 auto;
     width: 100vw; } }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .whole__page__container {
     margin: 0 auto;
-    width: 1000px; } }
+    width: 900px; } }
 .hidden__AF {
   display: none;
   width: 0;
@@ -319,10 +318,13 @@ body {
     border: 3px solid pink; }
 
 .external__link {
-  font-size: 15px;
+  font-size: 2rem;
   font-weight: 700;
   margin: 15px 0 5px 20px;
-  text-align: left; }
+  text-align: center; }
+
+.external__link:hover {
+  background-color: #dddddd; }
 
 .video__content__container {
   margin: 1% auto;
@@ -353,7 +355,7 @@ body {
     width: 100%;
     text-align: center; }
   .content__header #landing__header {
-    font-size: 2rem; }
+    font-size: 2.5rem; }
 
 .landing__container {
   background: url(../images/NOWBGroupshot.jpg) center center no-repeat;
@@ -363,9 +365,19 @@ body {
   min-height: 500px; }
 
 .calendar__container {
-  background: url(../images/NOWBCalendar.jpg) center center no-repeat;
-  background-size: 100% auto;
-  background-color: black; }
+  background-size: 10px !important; }
+
+.calendar__text {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 6rem;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  text-align: center; }
 
 .links__container {
   background: url(../images/NOWBLinks.jpg) center center no-repeat;
@@ -376,6 +388,12 @@ body {
   background: url(../images/NOWBBooking.jpg) center center no-repeat;
   background-size: 100% auto;
   background-color: black; }
+  .contact__container .contact__content__container {
+    margin: 2% auto;
+    width: 90%; }
+    .contact__container .contact__content__container .booking__text {
+      text-align: center;
+      width: 100% !important; }
 
 .music__container {
   background: url(../images/NOWBMusic.jpg) center center no-repeat;
@@ -393,7 +411,7 @@ body {
   background-color: black; }
 
 .photos__container {
-  background: url(../images/NOWBPhotos.jpg) center center no-repeat;
+  background: url(../images/NOWBMailing.jpg) center center no-repeat;
   background-size: 100% auto;
   background-color: black; }
 
@@ -426,8 +444,7 @@ body {
   .external__link {
     font-size: 12px;
     font-weight: 700;
-    margin: 15px auto 0;
-    text-align: left; }
+    padding: 10px 0; }
 
   .content__header {
     min-height: 310px;
@@ -454,7 +471,7 @@ body {
     margin: 0 auto;
     padding: 2% 1px;
     width: 90%; } }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .content__header .content__header__text {
     font-size: 6rem; }
 
@@ -467,23 +484,25 @@ body {
     width: 60%; }
 
   #landing__header {
-    font-size: 3.5rem !important;
+    font-size: 4rem !important;
     top: 150px; }
 
-  .about__text, .booking__text {
+  .about__text {
     color: black;
     font-size: 1rem;
     width: 85%; }
 
   .booking__text {
-    font-size: 2rem;
-    text-align: center; } }
+    font-size: 1.75rem; }
+
+  .external__link {
+    font-size: 2rem; } }
 @media only screen and (min-width: 1200px) {
   .content__header {
     min-height: 600px; }
 
   #landing__header {
-    font-size: 6rem !important;
+    font-size: 6.5rem !important;
     top: 330px; } }
 .calendar__content {
   margin-top: 15%; }
